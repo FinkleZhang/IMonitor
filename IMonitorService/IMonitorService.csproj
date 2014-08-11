@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF2A1C5F-6F88-4416-BAC3-B4DEFFD54E0A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IMonitorService</RootNamespace>
+    <AssemblyName>IMonitorService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Code\Common.cs" />
+    <Compile Include="Code\Config.cs" />
+    <Compile Include="Code\EmailFrom.cs" />
+    <Compile Include="Code\EmailHelper.cs" />
+    <Compile Include="Code\IndexQuery.cs" />
+    <Compile Include="Code\LaptopInformation.cs" />
+    <Compile Include="Code\Pattern.cs" />
+    <Compile Include="Code\Pie.cs" />
+    <Compile Include="Code\PrinterCondition.cs" />
+    <Compile Include="Code\PrinterInformation.cs" />
+    <Compile Include="Code\PrinterType.cs" />
+    <Compile Include="Code\SendEmail.cs" />
+    <Compile Include="Code\TaskCondition.cs" />
+    <Compile Include="Code\RequestState.cs" />
+    <Compile Include="Code\RouterCondition.cs" />
+    <Compile Include="Code\RouterInformation.cs" />
+    <Compile Include="Code\SNMPStatus.cs" />
+    <Compile Include="Code\SqlHelper.cs" />
+    <Compile Include="Code\StoreHost.cs" />
+    <Compile Include="Code\StoreInformation.cs" />
+    <Compile Include="Code\StoreIP.cs" />
+    <Compile Include="Code\TonerReport.cs" />
+    <Compile Include="Code\V2\Common.cs" />
+    <Compile Include="Code\V2\DeviceAlertInformation.cs" />
+    <Compile Include="Code\V2\DeviceInformation.cs" />
+    <Compile Include="Code\V2\DeviceMonitorInfomation.cs" />
+    <Compile Include="Code\V2\DeviceMonitorReport.cs" />
+    <Compile Include="Code\V2\EmailFrom.cs" />
+    <Compile Include="Code\V2\EmailHelper.cs" />
+    <Compile Include="Code\V2\EmailInformation.cs" />
+    <Compile Include="Code\V2\Pattern.cs" />
+    <Compile Include="Code\V2\PrinterBaseInformation.cs" />
+    <Compile Include="Code\V2\PrinterCondition.cs" />
+    <Compile Include="Code\V2\PrinterInformation.cs" />
+    <Compile Include="Code\V2\PrinterType.cs" />
+    <Compile Include="Code\V2\SendEmail.cs" />
+    <Compile Include="Code\V2\SqlHelper.cs" />
+    <Compile Include="Code\V2\Store.cs" />
+    <Compile Include="Code\V2\StoreAlertEmail.cs" />
+    <Compile Include="Code\V2\StoreBaseInformation.cs" />
+    <Compile Include="Code\V2\StoreInformation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="OLEPRNLib">
+      <Guid>{7586B340-EC08-11D0-A466-00C04FC30DF6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

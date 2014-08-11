@@ -1,0 +1,7 @@
+E:\GitHub\IMonitor\IMonitorService\bin\Debug\IMonitorService.dll
+E:\GitHub\IMonitor\IMonitorService\bin\Debug\IMonitorService.pdb
+E:\GitHub\IMonitor\IMonitorService\obj\Debug\Interop.OLEPRNLib.dll
+E:\GitHub\IMonitor\IMonitorService\obj\Debug\IMonitorService.csproj.ResolveComReference.cache
+E:\GitHub\IMonitor\IMonitorService\obj\Debug\IMonitorService.dll
+E:\GitHub\IMonitor\IMonitorService\obj\Debug\IMonitorService.pdb
+E:\GitHub\IMonitor\IMonitorService\obj\Debug\IMonitorService.csprojResolveAssemblyReference.cache

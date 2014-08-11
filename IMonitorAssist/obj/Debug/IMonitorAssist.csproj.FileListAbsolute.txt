@@ -1,0 +1,9 @@
+E:\GitHub\IMonitor\IMonitorAssist\bin\Debug\IMonitorAssist.exe
+E:\GitHub\IMonitor\IMonitorAssist\bin\Debug\IMonitorAssist.pdb
+E:\GitHub\IMonitor\IMonitorAssist\bin\Debug\IMonitorService.dll
+E:\GitHub\IMonitor\IMonitorAssist\bin\Debug\IMonitorService.pdb
+E:\GitHub\IMonitor\IMonitorAssist\obj\Debug\IMonitorAssist.csprojResolveAssemblyReference.cache
+E:\GitHub\IMonitor\IMonitorAssist\obj\Debug\Interop.OLEPRNLib.dll
+E:\GitHub\IMonitor\IMonitorAssist\obj\Debug\IMonitorAssist.csproj.ResolveComReference.cache
+E:\GitHub\IMonitor\IMonitorAssist\obj\Debug\IMonitorAssist.exe
+E:\GitHub\IMonitor\IMonitorAssist\obj\Debug\IMonitorAssist.pdb
